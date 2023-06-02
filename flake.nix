@@ -44,6 +44,7 @@
             libinput
             mesa # For libgbm
             fontconfig
+            stdenv.cc.cc.lib
           ];
           runtimeDependencies = with pkgs; [
             libglvnd # For libEGL
